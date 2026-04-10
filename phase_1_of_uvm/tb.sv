@@ -1,8 +1,8 @@
-//`include "uvm_pkg.sv"
+//`include "uvm_pkg.sv"//we have include if we are running in the questa or vcs
 import uvm_pkg::*;
 
 //just for eda
-`include "uvm_macros.svh"
+`include "uvm_macros.svh"//we include this only if we run code in eda play groung
 //----------------------------
 
 `include "mem_tx.sv"
