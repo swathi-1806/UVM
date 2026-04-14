@@ -36,6 +36,8 @@ task run_phase(uvm_phase phase);
   seq_h=mem_seq::type_id::create("seq_h");
 //3. raise the objections
 	phase.raise_objection(this);
+	//adding drain time
+	phase.phase_done.set_drain_time(this,20);
 //4. map the seq to sqr
 	seq_h.start(env_h.agent_h.sqr_h);
 //5. drop the objection
