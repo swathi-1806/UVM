@@ -15,6 +15,7 @@ endtask
 
 task body();
 	`uvm_info("BODY","mem_seq body executed",UVM_NONE)
+	`uvm_do(req)
 endtask
 	
 task post_body();
