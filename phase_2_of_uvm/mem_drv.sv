@@ -19,6 +19,16 @@ endfunction
 //run_phase
 task run_phase(uvm_phase phase);
   `uvm_info("mem_drv","mem_drv run_phase is executed",UVM_NONE)
+	forever begin
+		seq_item_port.get_next_item(req);
+		driver_tx(req);
+		seq_item_port.item_done();
+	end
 endtask
+
+	task driver_tx(mem_tx tx);
+		#10;
+		tx.print();
+	endtask
 
 endclass
