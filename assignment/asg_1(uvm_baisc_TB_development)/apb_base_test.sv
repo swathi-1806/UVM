@@ -33,7 +33,6 @@ endtask
     
 
 //end_pf_elaboration_phase
-
 function void end_of_elaboration_phase(uvm_phase phase);
 	uvm_top.print_topology();
 endfunction
