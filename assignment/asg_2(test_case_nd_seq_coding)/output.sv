@@ -1,0 +1,49 @@
+# UVM_INFO /usr/share/questa/questasim/verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(277) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO /usr/share/questa/questasim/verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(278) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test apb_wr_rd_test...
+# UVM_INFO /usr/share/questa/questasim/verilog_src/uvm-1.2/src/base/uvm_root.svh(579) @ 0: reporter [UVMTOP] UVM testbench topology:
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# uvm_test_top               apb_wr_rd_test          -     @355 
+#   env_h                    apb_env                 -     @367 
+#     agt_h                  apb_agent               -     @379 
+#       drv_h                apb_drv                 -     @388 
+#         rsp_port           uvm_analysis_port       -     @405 
+#         seq_item_port      uvm_seq_item_pull_port  -     @396 
+#       sqr_h                uvm_sequencer           -     @414 
+#         rsp_export         uvm_analysis_export     -     @422 
+#         seq_item_export    uvm_seq_item_pull_imp   -     @528 
+#         arbitration_queue  array                   0     -    
+#         lock_queue         array                   0     -    
+#         num_last_reqs      integral                32    'd1  
+#         num_last_rsps      integral                32    'd1  
+# --------------------------------------------------------------
+# 
+# -------------------------------------------------------------------------------------------
+# Name                           Type      Size  Value                                       
+# -------------------------------------------------------------------------------------------
+# req                            apb_tx    -     @566                                        
+#   data                         integral  8     'b10111000                                  
+#   wr_rd                        integral  1     'b0                                         
+#   addr                         integral  16    'ha672                                      
+#   begin_time                   time      64    0                                           
+#   depth                        int       32    'd2                                         
+#   parent sequence (name)       string    13    apb_wr_rd_seq                               
+#   parent sequence (full name)  string    44    uvm_test_top.env_h.agt_h.sqr_h.apb_wr_rd_seq
+#   sequencer                    string    30    uvm_test_top.env_h.agt_h.sqr_h              
+# -------------------------------------------------------------------------------------------
+# UVM_INFO /usr/share/questa/questasim/verilog_src/uvm-1.2/src/base/uvm_report_server.svh(847) @ 0: reporter [UVM/REPORT/SERVER] 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :    5
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [Questa UVM]     2
+# [RNTST]     1
+# [UVM/RELNOTES]     1
+# [UVMTOP]     1
+# 
