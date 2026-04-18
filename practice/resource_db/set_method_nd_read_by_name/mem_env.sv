@@ -6,8 +6,6 @@ class mem_env extends uvm_env;
 //mem_agent instantiation
 mem_agent agent_h;
   
-int count_2;
-
 //constructors
 `NEW_COMP
 
