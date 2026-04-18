@@ -36,9 +36,5 @@ endtask
 //report_phase
 
 endclass
-	
-	
-
-	
 
 
