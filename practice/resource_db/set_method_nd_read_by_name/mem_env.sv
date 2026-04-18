@@ -6,6 +6,8 @@ class mem_env extends uvm_env;
 //mem_agent instantiation
 mem_agent agent_h;
   
+int count_2;
+
 //constructors
 `NEW_COMP
 
@@ -24,6 +26,7 @@ function void connect_phase(uvm_phase phase);
 endfunction
 
 endclass
+
 
 
 
