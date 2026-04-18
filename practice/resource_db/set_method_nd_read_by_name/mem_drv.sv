@@ -29,7 +29,7 @@ function void connect_phase(uvm_phase phase);
   uvm_resource_db#(int)::set("DRV","DRV_COUNT",500,this);
 endfunction
 
-//eth_pkt retriva;
+//eth_pkt retrival;
 task run_phase(uvm_phase phase);
   if(uvm_resource_db#(eth_pkt)::read_by_name("ETH_SCOPE","ETH_PKT",pkt_h,this)==0)begin
 `uvm_error("mem_drv","RETRIVAL OF ETH_PKT HAS FAILED")
@@ -42,4 +42,5 @@ pkt_h.print();
 endtask
 
 endclass
+
 
