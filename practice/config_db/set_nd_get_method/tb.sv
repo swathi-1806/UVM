@@ -6,7 +6,6 @@ import uvm_pkg::*;
 `include "uvm_macros.svh"
 //----------------------------
 `include "common.sv"
-`include "mem_tx.sv"
 `include "mem_drv.sv"
 `include "mem_sqr.sv"
 `include "mem_agent.sv"
@@ -47,7 +46,6 @@ reg clk,rst;
 								"count",
 								 300); 
 	end
-
 //-----------------------------------------------------------------------------------------------
 
 endmodule
