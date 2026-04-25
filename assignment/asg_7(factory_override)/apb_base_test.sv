@@ -16,11 +16,6 @@ function void build_phase(uvm_phase phase);
 	env_h=apb_env::type_id::create("env_h",this);
 
 endfunction
-
-//connect_phase
-function void connect_phase(uvm_phase phase);
-		
-endfunction
   
 //run_phase
 task run_phase(uvm_phase phase);
