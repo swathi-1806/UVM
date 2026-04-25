@@ -32,6 +32,9 @@ class apb_tx extends uvm_sequence_item;
   `NEW_OBJ
 
 endclass
+
+
+
 class apb_err_tx extends apb_tx;
 
   rand bit        pwrite;     // 1 = write, 0 = read
