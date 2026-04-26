@@ -1,3 +1,5 @@
+output:-
+
 # UVM_INFO /usr/share/questa/questasim/verilog_src/uvm-1.2/src/base/uvm_root.svh(392) @ 0: reporter [UVM/RELNOTES] 
 # ----------------------------------------------------------------
 # UVM-1.2
