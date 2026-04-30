@@ -4,14 +4,12 @@ class producer extends uvm_component;
 
 //instantiate tlm1.0 base class
  uvm_blocking_get_imp#(my_tx,producer)  producer_imp_h;
-my_tx tx;
 
 `NEW_COMP
   
  function void build_phase(uvm_phase phase);
     super.build_phase(phase);
 	producer_imp_h=new("producer_imp_h",this);
-	tx = my_tx::type_id::create("tx");
  endfunction
 
 // Implementation of get method
