@@ -16,15 +16,15 @@ The goal is to verify all input combinations of the Half Adder and validate the 
 
 ## UVM Testbench Architecture
 ### The testbench follows standard UVM architecture:
-
-Sequence
-Sequencer
-Driver
-Monitor
-Agent
-Scoreboard
-Environment
-Test
+* Sequence
+* Sequencer
+* Driver
+* Monitor
+* coverage
+* Agent
+* Scoreboard
+* Environment
+* Test
 
 ## Verification Features
 *  Randomized stimulus using UVM sequences
