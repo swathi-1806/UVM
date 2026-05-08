@@ -1,6 +1,4 @@
 # Half Adder Verification using UVM (SystemVerilog)
-## Half Adder Verification using UVM (SystemVerilog)
-
 
 ## Project Overview
 This project demonstrates the verification of a Half Adder RTL design using the Universal Verification Methodology (UVM) in SystemVerilog.
