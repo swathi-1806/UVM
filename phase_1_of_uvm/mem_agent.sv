@@ -19,8 +19,6 @@ function void build_phase(uvm_phase phase);
 	drv_h=mem_drv::type_id::create("drv_h",this);
 	sqr_h=mem_sqr::type_id::create("sqr_h",this);
   `uvm_info("mem_agent","mem_agent build_phase is executed",UVM_NONE)
-
-
 endfunction
 
 endclass
